@@ -13,3 +13,81 @@ html {
 body {
     font-family: "Roboto","Arial",sans-serif;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+header img {
+    width: 100px;
+    height: 60px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+.middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-left: -40px;
+}
+.middle-section form input {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+   
+}
+.middle-section form {
+    display: flex;
+    align-items: center;
+    
+    
+    width: 100%;
+}
+.middle-section form button {
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background:whitesmoke;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mic{
+    margin-left: -50px;
+    background: white;
+    border: none;
+}
+
+.right-section {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.right-section button {
+   
+    
+    border-radius: 5px;
+    border: none;
+    
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px;;
+}
